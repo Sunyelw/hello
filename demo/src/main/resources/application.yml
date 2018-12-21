@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          name: application
+          uri: https://github.com/Queeniechenjiaqi/firstWork.git
+          username:
+          password:
+          label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8760/eureka/
+
+server:
+  port: 8888
+
