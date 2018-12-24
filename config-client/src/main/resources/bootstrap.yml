@@ -3,12 +3,13 @@ spring:
     name: config-client
   cloud:
     config:
+      name: ms-application
       label: master
-      uri: http://localhost:8888/application
+      uri: http://localhost:8888
       profile: dev
-      discovery:
-        enabled: true
-        service-id: config-server
+#      discovery:
+#        enabled: true
+#        service-id: config-server
 server:
   port: 8881
 

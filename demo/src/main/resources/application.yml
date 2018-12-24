@@ -5,11 +5,10 @@ spring:
     config:
       server:
         git:
-          name: application
           uri: https://github.com/Queeniechenjiaqi/firstWork.git
-          username:
-          password:
-          label: master
+#          username:
+#          password:
+
 
 eureka:
   client:
