@@ -6,10 +6,8 @@ spring:
       name: ms-application
       label: master
       uri: http://localhost:8888
-      profile: dev
-#      discovery:
-#        enabled: true
-#        service-id: config-server
+      profile: test
+
 server:
   port: 8881
 
