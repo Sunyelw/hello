@@ -7,7 +7,7 @@ spring config server
 # Second work.
 spring cloud eureka
 
-### third work
+# third work
 basic git bash operate
 
 1. git pull/push
@@ -22,5 +22,6 @@ basic git bash operate
 
 6. git reset/revert
 
-@Queeniechenjiaqi
+# see you
 
+the end.
