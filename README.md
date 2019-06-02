@@ -25,3 +25,5 @@ basic git bash operate
 # see you
 
 the end.
+
+study study hard day day up.
